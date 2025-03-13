@@ -1,11 +1,9 @@
-const quantidade = 12;
-
-if(quantidade<10){
-    console.log("small number")
-}else{
-    console.log("Large number")
-}
-console.log(`meu primeiro app node!!`);
+const names = require('./4-names');
+const ola = require('./5-utils');
 
 
+
+ola('marcus');
+ola(names.fulano);
+ola(names.ciclano);
 
